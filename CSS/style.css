@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: wheat;
+    width: 100vw;
+
+}
+.contaner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 70px;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50%;
+    list-style: none;
+}
+.nav .nav-a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    transition: 0.4s;
+}
+.nav-a:hover {
+    color: blueviolet;
+    transform: scale(0.5s);
+}
+.btn-1 {
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn-1:hover {
+    background: green;
+}
