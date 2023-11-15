@@ -109,12 +109,17 @@ body {
     gap: 10px;
 }
 .im-tx {
-    width: 220px;
+    width: 400px;
     height: 30px;
 }
 .in-ms {
-    width: 220px;
+    width: 400px;
     height: 200px;
+}
+.in-ms:placeholder {
+    display: flex;
+    position: relative;
+    top: 10px;
 }
 .email {
     padding-left: 22px;
@@ -135,7 +140,7 @@ body {
 
     background: black;
     width: 100%;
-    height: 200px;
+    height: 220px;
 
 }
 .nav-fundo {
@@ -187,4 +192,6 @@ body {
 }
 .ic-yt:hover {
     color: red;
+    width: ;
 }
+/*tamanho de telas*/
