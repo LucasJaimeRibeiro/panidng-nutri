@@ -76,23 +76,79 @@ body {
     padding-left: 30px;
 }
 
+/*meus trabalhos*/
 .img-tx-tra {
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding-top: 100px;
+    padding-left: 70px;
 }
-.cent-tra1 {
-    display: flex;
-    gap: 70px;
+.texo-traba {
+    padding-left: 450px;
 }
 .img-tra {
+    width: 400px;
+    display: flex;
+    gap: 20px;
+}
+.img-tra {
+    width: 400px;
+}
+/*formulario*/
+.for-ins {
+    position: absolute;
+    top: 1700px;
+}
+.for-geral {
+    padding-left: 400px;
+    
+}
+.busca {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 240px;
+    flex-direction: column;
     gap: 10px;
-    position: absolute;
-    top: 500px;
-    left: 50px;
+}
+.im-tx {
+    width: 220px;
+    height: 30px;
+}
+.in-ms {
+    width: 220px;
+    height: 200px;
+}
+.email {
+    padding-left: 22px;
+}
+.btn-for {
+    padding-left: 170px;
+    padding-top: 10px;
+}
+.btn-en {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+/*roda pe do site*/
+.rodape {
+    position: relative;
+    top: 700px;
+    
+    max-width: 100%;
+    max-height: 400px;
+    background: black;
+}
+.nav-fundo {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.naveg {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nav-a {
+    color: white;
+    text-decoration: none;
+    gap: 10px;
+    
 }
