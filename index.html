@@ -11,15 +11,15 @@
     <script src=""></script>
 </head>
 <body>
-    <header>
+    <header class="contaner">
         <section class="nav-top">
-            <div class="contaner"><!--navegacao-->
+            <div class="nav-1"><!--navegacao-->
                 <div class="logo"><!--logotipo-->
                     <a href="#">LOGO<img src="" alt=""></a><!--link e logo da imagem-->
                 </div>
                 <div class="nav"><!--navegar no site-->
-                    <ul>
-                        <li><a class="nav-a" href="#">HOME</a></li>
+                    <ul class="nav-bar">
+                        <li><a class="nav-a" href="index.html">HOME</a></li>
                         <li><a class="nav-a" href="#">ESPECIALIDADES</a></li>
                         <li><a class="nav-a" href="#">SOBRE</a></li>
                     </ul>
@@ -27,12 +27,13 @@
                 <div class="btn-cont">
                     <button class="btn-1">CONTATO</button>
                 </div>
+            </div>
             </div>    
         </section>
         <section class="bar-im"><!--imagemperto da navegacao-->
             <div class="bar-center-top">
                 <div class="bra-1-img">
-                    <img style="width: 100%;" src="img/to-bar-nutri.jpg" alt="">
+                    <img class="img-nutri-cent" src="img/to-bar-nutri.jpg" alt="">
                 </div>
                 <div class="tex">
                     <h1 class="nutri-cent-tex-h1">MUDA SEUS HABITOS</h1>
@@ -44,18 +45,18 @@
             <div class="especia">
                 <div class="esp1">
                     <i class="bi bi-dribbble"></i>
-                    <h1>ACADEMIA</h1>
-                    <p>tudo o que voce presica pra <br>um sheip melhor</p>
+                    <h1 class="esp-h1">ACADEMIA</h1>
+                    <p class="esp-p">tudo o que voce presica pra <br>um sheip melhor</p>
                 </div>
                 <div class="esp1">
                     <i class="bi bi-activity"></i>
-                    <h1>VIDA MELHOR</h1>
-                    <p>melhoramaos sua qualidade de vida e <br>sua perca de peso</p>
+                    <h1 class="esp-h1">VIDA MELHOR</h1>
+                    <p class="esp-p">melhoramaos sua qualidade de vida e <br>sua perca de peso</p>
                 </div>
                 <div class="esp1">
                     <i class="bi bi-briefcase-fill"></i>
-                    <h1>SUA EMPRESA</h1>
-                    <p>voce tem um mescado ou te qualidade do seu produtos</p>
+                    <h1 class="esp-h1">SUA EMPRESA</h1>
+                    <p class="esp-p">voce tem um mescado ou te qualidade <br>do seu produtos</p>
                 </div>
             </div>
 
@@ -65,32 +66,37 @@
                 <div class="texo-traba">
                     <h1 class="tx-mai">MEUS TRABALHOS</h1>
                 </div>
-                <div class="img-tra">
+                <div class="img-ger">
                     <div class="fto-aca">
-                        <img class="img-tra" src="https://i.pinimg.com/564x/51/2d/30/512d30073ab03722499db544927068c3.jpg" alt="">
-                    </div>
-                    <div class="fto-aca">
-                        <img class="img-tra" src="https://i.pinimg.com/564x/41/bf/ac/41bfac2800f0b8d458d2412f748332f2.jpg" alt="">
-                    </div>
-                    <div class="fto-aca">
-                        <img class="img-tra" src="https://i.pinimg.com/564x/cc/42/46/cc4246f937b773fc665b13d02fd65e44.jpg" alt="">
+                        <img class="img-tra-1" src="https://i.pinimg.com/564x/51/2d/30/512d30073ab03722499db544927068c3.jpg" alt="">
+                        <img class="img-tra-1" src="https://i.pinimg.com/564x/41/bf/ac/41bfac2800f0b8d458d2412f748332f2.jpg" alt="">
+                        <img class="img-tra-1" src="https://i.pinimg.com/564x/cc/42/46/cc4246f937b773fc665b13d02fd65e44.jpg" alt="">
                     </div>
                 </div>
-                
             </div>
         </section>
         <section class="for-ins"><!--formulario-->
             <div class="for-geral">
-                <form action="submit" class="for-1">
+                <form action="" ></form>
+                <form action="submit" class="for-1" method="get">
                     <div class="busca">
+                        <div class="nome-1 name ">
+                            <label for="">
+                               Nome 
+                            </label>
+                             <input class="im-tx" type="text" name="nome" id="" required>
+                        </div>
                         <div class="name email">
-                            Nome <input class="im-tx" type="text" name="" id="">
+                            <label for="">
+                                E-mail 
+                            </label>
+                           <input class="im-tx" type="text" name="e-" id="" required>
                         </div>
-                        <div class="email">
-                            E-mail <input class="im-tx" type="text" name="" id="">
-                        </div>
-                        <div class="msn">
-                            Mensagem <input class="in-ms" type="text" name="" id="" placeholder="Mensagem">
+                        <div class="name msn">
+                            <label for="" class="mms">
+                                Mensagem
+                            </label>
+                             <textarea class="in-ms" name="mensagem" id="mmsn" cols="30" rows="10"></textarea>
                         </div>
                     </div>
                 </form>
